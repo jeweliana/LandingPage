@@ -70,12 +70,52 @@ ul{
   flex-direction: row; 
   gap: 20px; 
   padding-right: 20px; 
-
   }
+
+
 .logo{
   height: 100px; 
   width: 100px; 
   border-radius: 25px; 
 
   padding-left: 20px; 
+}
+
+.hero{
+  padding-top: 20px; 
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+
+  color: var(--text);
+  
+}
+.hero-p{
+  margin: 0px; 
+  max-width: 600px; 
+  color: var(--text-light)
+
+}
+.hero-h{
+
+  margin: 0px; 
+  color: var(--accent-dark);
+}
+
+.hero-button{
+
+  margin: 16px;
+  background-color: var(--button-bg);
+  color: white; 
+
+  text-align: center;
+
+  width: 200px; 
+  height: 50px; 
+  border: none; 
+  border-radius: 40px; 
+
+  font-size: 17px; 
+  font-weight: 100; 
 }
