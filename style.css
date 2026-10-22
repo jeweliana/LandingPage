@@ -1,0 +1,81 @@
+
+:root {
+  /* Backgrounds */
+  --background: #FDFBF6;
+  --background-alt: #DCEEF2;
+  --sand: #F3E9D8;
+
+  /* Primary colors */
+  --primary: #B9DDD5;
+  --primary-dark: #486C73;
+  --secondary: #A8C9D8;
+
+  /* Accent colors */
+  --accent: #F7D8C9;
+  --accent-dark: #E9B7A5;
+
+  /* Text */
+  --text: #354F52;
+  --text-light: #6D8587;
+  --white: #FFFFFF;
+
+  /* UI elements */
+  --card-bg: #FFFFFF;
+  --button-bg: #486C73;
+  --button-hover: #35565C;
+  --button-text: #FFFFFF;
+  --border: #D8E7E5;
+
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+
+body{
+
+  background-color: var(--background);
+  font-family: var(--font-body);
+
+  margin: 0; 
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+
+}
+
+h1, h2, h3{
+  font-family: var(--font-heading);
+  font-weight: 600; 
+}
+
+button, nav {
+  font-family: var(--font-body);
+}
+
+header{
+  background-color: var(--background-alt);
+  color: var(--text-light);
+
+  border: none;
+
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center; 
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex; 
+  flex-direction: row; 
+  gap: 20px; 
+  padding-right: 20px; 
+
+  }
+.logo{
+  height: 100px; 
+  width: 100px; 
+  border-radius: 25px; 
+
+  padding-left: 20px; 
+}
