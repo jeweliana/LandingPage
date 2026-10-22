@@ -69,7 +69,7 @@ ul{
   display: flex; 
   flex-direction: row; 
   gap: 20px; 
-  padding-right: 20px; 
+  padding-right: 15px; 
   }
 
 
@@ -78,7 +78,7 @@ ul{
   width: 100px; 
   border-radius: 25px; 
 
-  padding-left: 20px; 
+  padding-left: 15px; 
 }
 
 .hero{
@@ -119,3 +119,25 @@ ul{
   font-size: 17px; 
   font-weight: 100; 
 }
+
+.card-image{
+  width: 200px; 
+  height: 150px; 
+  border-radius: 25px; 
+   
+}
+
+.information-cards{
+  display: flex;
+  flex-direction: row; 
+  gap: 10px; 
+  justify-content: center; 
+}
+
+.card-p{
+  color: var(--text-light);
+  text-align: center;
+}
+
+
+
