@@ -40,6 +40,7 @@ body{
   min-height: 100vh; 
   display: flex; 
   flex-direction: column; 
+  
 
 }
 
@@ -56,7 +57,7 @@ button, nav {
 }
 
 header{
-  background-color: var(--background-alt);
+  background-color: var(--border);
   color: var(--text-light);
 
   border: none;
@@ -142,7 +143,6 @@ ul{
   flex: 1; 
   flex-wrap: wrap; 
 }
-
 .card-title{
   text-align: center;
   font-size: 50px; 
@@ -167,6 +167,32 @@ ul{
   color: var(--text-light);
   text-align: center;
   font-size: 30px; 
+}
+
+.quote{
+  height: 400px; 
+  font-size: 30px;
+  
+  background-color: var(--background-alt);
+  color: var(--text);
+
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+}
+.quote-p{
+  text-align: left; 
+  width: 900px; 
+}
+.quote-name{
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-end;
+  justify-content: flex-end; 
+  margin: 0;  
+  width: 900px; 
+  
 }
 
 
