@@ -88,6 +88,7 @@ ul{
 }
 
 .hero{
+  
   padding-top: 20px; 
   text-align: center; 
   display: flex; 
@@ -136,6 +137,7 @@ ul{
   padding: 20px; 
 }
 .hero-row{
+  /* background-color: var(--border); */
   display: flex;
   flex-direction: row;
   justify-content: center; 
@@ -149,8 +151,9 @@ ul{
 }
 
 .card-image{
-  width: 400px; 
-  height: 270px; 
+  width: 350px; 
+  height: 250px;
+  
   border-radius: 25px; 
    
 }
@@ -158,8 +161,7 @@ ul{
 .information-cards{
   display: flex;
   flex-direction: row; 
-  gap: 10px; 
-  justify-content: center; 
+  justify-content: space-evenly; 
   flex-wrap: wrap; 
 }
 
@@ -192,7 +194,83 @@ ul{
   justify-content: flex-end; 
   margin: 0;  
   width: 900px; 
+}
+
+.action{
+
+  color: var(--text);
+  font-size: 25px;
+
+  margin: 25px; 
+
+  height: 150px;
   
+  background-color: var(--accent);
+
+  border-radius: 25px; 
+
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+
+  align-items: center; 
+
+  gap: 100px; 
+  
+  
+
+}
+.action-statement{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  
+}
+.action-h{
+  margin:0px;
+}
+.action-p{
+  margin: 0; 
+  
+}
+.statement-container{
+  display: flex; 
+  flex-direction: column;
+  
+}
+.action-button{
+
+color: var(--text);
+background-color: var(--accent);
+font-size: 35px;
+
+ height: 75px; 
+ width: 200px; 
+ border: 2px; 
+ border-style: solid; 
+ border-color: white; 
+ border-radius: 10px;
+ 
+}
+
+footer{
+  background-color: var(--border);
+  color: var(--text-light);
+
+  border: none;
+
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center; 
+
+}
+
+html{
+  background-color: var(--border);
+}
+html, body{
+  background-color: var(--background);
 }
 
 
